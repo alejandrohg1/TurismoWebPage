@@ -1,0 +1,391 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+.card-container {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  display: flex;
+  align-items: flex-end;
+ background-size: cover;
+  width: 33.33%;
+  height: 90vh;
+  background-repeat: no-repeat;
+}
+
+.card.card1 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(/resources/mango_rosa_photography-2-Copy.jpg);
+  background-position: center;
+}
+.card.card2 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(/resources/ver-centroamerica-nicaragua-volcán-cerro-negro-06.jpg);
+  background-position: 90% 50%;
+}
+
+.card.card3 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(/resources/Mombacho.jpeg);
+  background-position: 50% 20%;
+}
+
+.card-text {
+  color: white;
+  text-align: left;
+  padding-bottom: 10px;
+  padding-left: 5px;
+}
+
+.card-text h2 {
+  font-size: 30px;
+}
+.card-text p {
+  font-size: 20px;
+}
+
+.hero-text {
+  text-align: center;
+  width: 100%;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 40px;
+}
+
+.top-main-site {
+  padding-top: 131px;
+  align-items: center;
+  padding-left: 50px;
+  padding-right: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.text {
+  margin-bottom: 10px;
+  color: #8e8181;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.text-holder h2 {
+  font-size: 48px;
+  font-weight: 800;
+}
+
+.empty-Button {
+  display: block;
+  height: 61px;
+  width: 393px;
+  border-radius: 30px;
+  border: 1px solid black;
+  background-color: white;
+  font-size: 20px;
+}
+
+.departamento-cards {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  padding-top: 50px;
+  margin: 0 auto;
+  width: 90vw;
+  justify-items: center;
+}
+
+.depta-text {
+  margin-top: 20px;
+  color: black;
+  font-weight: 700;
+  font-size: 25px;
+  font-style: normal;
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.card-image img {
+  width: 25vw;
+  height: 60vh;
+  border-radius: 30px;
+  object-fit: cover;
+}
+
+.texto-departamentos-nic {
+  justify-content: center;
+  padding-top: 100px;
+  align-items: center;
+  width: 90vw;
+  margin: auto;
+}
+
+.departamento-list ul {
+  margin-top:50px;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-around;
+  align-self: flex-end;
+  gap: 2rem;
+  color: gray;
+}
+
+.departamento-list ul li a {
+  color: gray;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.important-text{
+    font-size: 50px;
+}
+
+.sub-text h2{
+    margin-top: 70px;
+    font-size: 38px;
+    display: flex;
+    flex-direction: row-reverse;
+    width: 90vw;
+    margin-bottom: 5rem;
+}
+
+.paquetes-card{
+    background-color: white;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    height: 90vh;
+    
+    
+}
+.card-viaje.selva {
+    display: flex;
+    width: 40vw;
+    height: 85vh;
+    background-color: #fff;
+    flex-direction: column;
+    box-shadow: 0.05rem 0.1rem 0.3rem -0.03rem rgba(0, 0, 0, 0.45);
+    border-radius: 0.5rem;
+   
+}
+
+.card-viaje.somoto{
+    display: flex;
+    flex-direction: row;
+    width: 50vw;
+    height: 45vh;
+    box-shadow: 0.05rem 0.1rem 0.3rem -0.03rem rgba(0, 0, 0, 0.45);
+    border-radius: 0.5rem;
+}
+
+.card-viaje.playa{
+    display: flex;
+    margin-top: 1rem;
+    flex-direction: row-reverse;
+    width: 50vw;
+    height: 37.5vh;
+    box-shadow: 0.05rem 0.1rem 0.3rem -0.03rem rgba(0, 0, 0, 0.45);
+    border-radius: 0.5rem;
+}
+.viaje-image{
+    
+    background-size: cover;
+    width: 40vw;
+    height: 50vh;
+    border-radius: 10px;
+    object-fit: cover;
+    margin: 0 auto;
+}
+
+.viaje-image.selva-img{
+    background-image: url(/resources/selva-9.jpg);
+}
+
+.viaje-image.somoto-img{
+    background-image: url(/resources/somoto.jpg);
+    width: 70vw;
+    height: 45vh;
+    background-position: 50%;
+    
+    
+}
+
+.viaje-image.playa-img{
+    background-image: url(/resources/playa.jpg);
+    width: 70vw;
+    height: 37.5vh;
+    background-position: 50%;
+}
+
+
+.viaje-text{
+    color: black;
+    font-size: 2rem;
+    text-align: left;
+    margin: 2rem;
+    letter-spacing: -1px;
+}
+
+.viaje-text h2{
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-size: 2rem;
+}
+
+.viaje-text p{
+    color: gray;
+    font-size: 1.5rem;
+}
+
+.button-abajo{
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 2rem;
+    margin-bottom: 8rem;
+}
+
+.suscripcion-section{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #BAD9B5;
+  margin: 0 auto;
+  width: 70vw;
+  height: 50vh;
+}
+
+.green-panel{
+  
+  margin: 1rem;
+  width: 35vw;
+  text-align: left;
+  
+  
+}
+
+.green-panel h2{
+  font-size: 50px;
+  font-weight: bold;
+  margin-bottom: 30px;
+  
+}
+
+.green-panel h4{
+  font-size: 30px;
+  font-weight: 400;
+
+}
+
+.form-sus{
+  display: flex;
+  margin: 2rem;
+  width: 30vw;
+  height: 40vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items:center;
+  
+  
+}
+
+.form-sus input[type=text]{
+  width: 100%;
+  height: 10px;
+  border: none;
+  border-radius: 25px;
+  margin-bottom: 10px;
+  padding: 1.7rem;
+  font-size: 22px;
+  text-align: left;
+}
+
+
+
+
+.form-sus button{
+  margin-top: 1.5rem;
+  width: 20vw;
+  height: 8vh;
+  border-radius: 25px;
+  border: none;
+  align-self: flex-end;
+  background-color: #2D4654;
+  font-size: 1.5rem;
+  color: white;
+}
+
+.footer{
+  background-color: #243B4A;
+  width: 100%;
+  height: 75vh;
+  margin-top: 17rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  color: white;
+}
+
+.logo{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo h2{
+  font-size: 2.5rem;
+
+}
+
+.info-nica{
+  margin-top: 2rem;
+}
+
+.info-nica h3{
+  font-size: 20px ;
+  margin-bottom: 0.4rem;
+  font-weight: 600;
+}
+.mapa-img img{
+  height: 40vh ;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.ws-logo{
+  display: flex;
+  align-items: center;
+}
+
+.social-media{
+ display: flex;
+ flex-direction: column;
+ height: 10vh;
+ align-items: center;
+ justify-content: center;
+}
+
+.social-media img{
+  height: 10vh;
+  width: 5vw;
+  margin: 0.5rem;
+}
+
+
+
+
+

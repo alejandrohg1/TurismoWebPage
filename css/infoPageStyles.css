@@ -1,0 +1,351 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html{
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.hero-image {
+  width: 100%;
+  height: 80vh;
+  background-image: url(/resources/granadaPog2.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: 50% 650%;
+  background-size: cover;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.top-text {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  color: black;
+  padding: 1rem;
+}
+
+.top-text a{
+  color: black;
+  text-decoration: none;
+}
+
+.top-text img {
+  height: 10vh;
+}
+
+input[type="text"] {
+  transition: width 0.4s ease-in-out;
+  border: none;
+}
+
+input[type="text"]:focus {
+  width: 100%;
+  border: none;
+}
+
+input[type="text"] {
+  width: 150px;
+  border: none;
+  border-radius: 10px;
+  font-size: calc(16px+1vw);
+  background-color: white;
+  background-image: url("/resources/1490793870-user-interface25_82355.png");
+  background-position: left;
+  background-repeat: no-repeat;
+  padding: 12px 20px 12px 40px;
+  transition: width 0.4s ease-in-out;
+  margin: 1rem;
+}
+
+.info-granada {
+  width: 100%;
+  height: 70vh;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 4rem;
+  margin-bottom: 8rem;
+}
+
+.granada-text {
+  width: 70%;
+  height: 80vh;
+  position: absolute;
+  background-color: white;
+  top: -7rem;
+  left: 0;
+}
+.list-granada {
+  width: 30%;
+  position: absolute;
+  right: -0rem;
+  height: 62vh;
+  top: 0rem;
+  border-left: 8px solid black;
+}
+
+.list-granada h2{
+    margin-left: 3rem;
+    margin-top: 2rem;
+    font-size: 2.3rem;
+}
+
+.granada-sites {
+    display: flex;
+  margin: 5rem;
+  flex-direction: column;
+  gap: 1rem
+}
+
+.granada-sites li a{
+    text-decoration: underline;
+    font-size: 1.5rem;
+    color: black;
+    margin-bottom: 2rem;
+}
+.inner-text {
+  margin: 2rem;
+  margin-left: 3rem;
+}
+
+.inner-text h3 {
+  margin-bottom: 2.3rem;
+  text-decoration: underline;
+  font-size: 2rem ;
+}
+
+.inner-text h1 {
+  font-size: calc(8rem);
+  margin-bottom: 4rem;
+  color: #448084;
+}
+
+.inner-text p {
+  font-size: 2rem;
+}
+
+li{
+    list-style: none;
+}
+
+.img-granadas{
+   
+    width: 95%;
+    height: 101vh;
+    
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.top-img{
+    display: flex;
+    justify-content: space-between;
+}
+
+.cocibolca{
+    background-image: url(/resources/cocibolca.png);
+    width: 60vw;
+    height: 50vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.calzada{
+    background-image: url(/resources/calzada.png);
+    width: 33vw;
+    height: 50vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.bot-img{
+    display: flex;
+    justify-content: space-between;
+}
+
+.picogarza{
+    background-image: url(/resources/picogarza.png);
+    width: 30%;
+    height: 50vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.sunset{
+    background-image: url(/resources/granadasunset.png);
+    width: 69%;
+    height: 50vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.top-atracciones h2{
+    font-size: 4rem;
+    margin-top: 5rem;
+    margin-left: 3rem;
+}
+.card-holder{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 2rem;
+
+}
+.card{
+    display: flex;
+    width: 20vw;
+    height: 50vh;
+    background-color: #fff;
+    flex-direction: column;
+    box-shadow: 0.05rem 0.1rem 0.3rem -0.03rem rgba(0, 0, 0, 0.45);
+    border-radius: 0.5rem;
+}
+
+.img-card{
+   background-size: cover;
+    width: 20vw;
+    height: 30vh;
+    border-radius: 10px;
+    
+}
+
+.card-info{
+    margin: 1rem;
+}
+
+.circles{
+    display: flex;
+    margin-top: 0.5rem;
+}
+
+.circle{
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    background-color: #419D55;
+    margin-right: 0.1rem;
+    
+
+}
+
+.sub-text{
+    margin-top: 0.5rem;
+}
+
+
+
+.img-card.isleta{
+    background-image: url("/resources/isleta-el-espino.jpg");
+}
+
+.img-card.patio{
+    background-image: url("/resources/patiohotel.jpg");
+}
+
+.img-card.hotel{
+    background-image: url("/resources/pool-night-time.jpg");
+}
+
+.img-card.jicaro{
+    background-image: url(/resources/jicaro.jpg);
+}
+
+.img-card.garza{
+    background-image: url(/resources/garza.jpg);
+}
+
+.img-card.mombacho{
+    background-image: url(/resources/Mombacho.jpeg);
+}
+
+.img-card.ometepe{
+    background-image: url(/resources/Ometepe.jpg);
+}
+
+.img-card.catedral{
+    background-image: url(/resources/Catedral_de_Granada\,_Nicaragua.jpg);
+}
+
+.img-card.bitro{
+  background-image: url(/resources/enjoy-the-elegant-ambiance.jpg);
+}
+
+.img-card.tranvia{
+  background-image: url(/resources/restaurante-el-tranvia.jpg);
+}
+
+.img-card.cafe{
+  background-image: url(/resources/cafe.jpg);
+}
+
+.img-card.picholine{
+  background-image: url(/resources/picholine.jpg);
+}
+
+.footer{
+  background-color: #243B4A;
+  width: 100%;
+  height: 75vh;
+  margin-top: 17rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  color: white;
+}
+
+.logo{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo h2{
+  font-size: 2.5rem;
+
+}
+
+.info-nica{
+  margin-top: 2rem;
+}
+
+.info-nica h3{
+  font-size: 20px ;
+  margin-bottom: 0.4rem;
+  font-weight: 600;
+}
+.mapa-img img{
+  height: 40vh ;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.ws-logo{
+  display: flex;
+  align-items: center;
+}
+
+.social-media{
+ display: flex;
+ flex-direction: column;
+ height: 10vh;
+ align-items: center;
+ justify-content: center;
+}
+
+.social-media img{
+  height: 10vh;
+  width: 5vw;
+  margin: 0.5rem;
+}
+
