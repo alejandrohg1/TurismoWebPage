@@ -34,7 +34,7 @@
   }
   
   .top-text a {
-    color: black;
+    color: white;
     text-decoration: none;
   }
   
@@ -48,12 +48,12 @@
   }
   
   input[type="text"]:focus {
-    width: 100%;
+    width: 30vw;
     border: none;
   }
   
   input[type="text"] {
-    width: 150px;
+    width: 20vw;
     border: none;
     border-radius: 10px;
     font-size: calc(16px+1vw);
@@ -64,4 +64,199 @@
     padding: 12px 20px 12px 40px;
     transition: width 0.4s ease-in-out;
     margin: 1rem;
+  }
+
+  .forms input[type="text"]{
+    width: 40vw;
+    border: 0.2rem solid black;
+    border-radius: 0px;
+    font-size: 2rem;
+  }
+
+.forms{
+    margin:3rem;
+
+}
+
+.combo-box{
+    display: flex;
+    margin: 4rem;
+    width: 70vw;
+    justify-content: space-between;
+}
+
+.custom-select h2{
+    margin-bottom: 1rem;
+    font-size: 3rem;
+}
+
+.custom-select select{
+    border-radius: 1.3rem;
+    width: 25vw;
+    height: 7vh;
+    font-size: 1.3rem;
+    padding-left: 1rem;
+}
+
+.card-holder{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: stretch ;
+    margin-top: 6rem;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+}
+
+.main-img{
+    background-image: url(/resources/granadaPog.jpg);
+    width: 25vw;
+    height: 50vh;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+
+.text a h3{
+    color: gray;
+    margin-bottom: 0.3rem;
+    text-decoration: none;
+}
+.text a{
+    text-decoration: none;
+}
+.text a h2{
+    font-size: 2.5rem;
+    color: black;
+    text-decoration: none;
+}
+
+.text a h2:hover{
+    text-decoration: underline;
+}
+
+.circles{
+    display: flex;
+    margin: 2rem;
+}
+
+.circle{
+    border: 0.1rem solid gray;
+    width: 2vw;
+    height: 2vw;
+    border-radius: 50%;
+}
+
+.circle a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin: 0.2rem;
+    text-decoration: none;
+    color: black;
+    font-size: 0.8rem;
+}
+
+.pagination-3 .page-number {
+    margin: 0.25em;
+  }
+  
+  .pagination-3 .page-number a {
+    padding: 0.125em;
+  }
+  
+  .pagination-3 .active {
+    padding: 4px 8px;
+    border-radius: 50%;
+    background-color: black;
+    color: white;
+  }
+  
+  .pagination-3 .active a {
+    color: white;
+  }
+  
+  .pagination ul {
+    margin: 2em auto;
+    padding-left: 0;
+    list-style-type: none;
+  }
+  
+  .page-number {
+    display: inline;
+  }
+  
+  .page-number a {
+    text-decoration: none;
+    color: black;
+  }
+
+  .pagination{
+      display: flex;
+      margin-top: 3rem;
+      width: 100%;
+      justify-content: center;
+  }
+
+  .footer{
+    background-color: #243B4A;
+    width: 100%;
+    height: 75vh;
+    margin-top: 14rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: white;
+  }
+  
+  .logo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .logo h2{
+    font-size: 2.5rem;
+  
+  }
+  
+  .info-nica{
+    margin-top: 2rem;
+  }
+  
+  .info-nica h3{
+    font-size: 20px ;
+    margin-bottom: 0.4rem;
+    font-weight: 600;
+  }
+  .mapa-img img{
+    height: 40vh ;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  .ws-logo{
+    display: flex;
+    align-items: center;
+  }
+  
+  .social-media{
+   display: flex;
+   flex-direction: column;
+   height: 10vh;
+   align-items: center;
+   justify-content: center;
+  }
+  
+  .social-media img{
+    height: 10vh;
+    width: 5vw;
+    margin: 0.5rem;
   }
