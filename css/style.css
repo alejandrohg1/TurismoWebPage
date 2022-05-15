@@ -26,12 +26,12 @@ body {
 
 .card.card1 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url(/resources/mango_rosa_photography-2-Copy.jpg);
+    url("/resources/mango_rosa_photography-2-Copy.jpg");
   background-position: center;
 }
 .card.card2 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url(/resources/ver-centroamerica-nicaragua-volcán-cerro-negro-06.jpg);
+    url("/resources/ver-centroamerica-nicaragua-volcán-cerro-negro-06.jpg");
   background-position: 90% 50%;
 }
 
