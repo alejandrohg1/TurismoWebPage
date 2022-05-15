@@ -96,6 +96,11 @@ body {
   font-size: 20px;
 }
 
+.empty-Button:hover{
+  background-color: black;
+  color: white;
+}
+
 .departamento-cards {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
