@@ -13,7 +13,7 @@ body {
   background-repeat: no-repeat;
   margin: 0 auto;
   display: flex;
-    background-attachment: fixed;
+  background-attachment: fixed;
   align-items: center;
   background-size: cover;
   background-position: 100% 20%;
@@ -110,59 +110,54 @@ input[type="password"]:focus {
   margin-top: 1rem;
 }
 
-.checkbox{
- display: flex;
- align-items: center;
- width: 10vw;
-
+.checkbox {
+  display: flex;
+  align-items: center;
+  width: 10vw;
 }
 
-.checkbox h2{
-    margin-left: 0.3rem;
-    font-size: 0.8rem;
-    color: gray;
+.checkbox h2 {
+  margin-left: 0.3rem;
+  font-size: 0.8rem;
+  color: gray;
 }
 
-.remember a{
-    color: gray;
-    font-size: 0.8rem;
+.remember a {
+  color: gray;
+  font-size: 0.8rem;
 }
-.button{
-    width: 75%;
-    height: 6vh;
-    display: flex;
-    margin-top: 2rem;
-    justify-content: center;
-    align-content: center;
-    background-color: #58a1f5;
-    border: 1px solid #9ec6f4;
-    
+.button {
+  width: 75%;
+  height: 6vh;
+  display: flex;
+  margin-top: 2rem;
+  justify-content: center;
+  align-content: center;
+  background-color: #58a1f5;
+  border: 1px solid #9ec6f4;
+  cursor: pointer;
 }
-.button a{
-    padding: 10px;
-    text-decoration: none;
-    color: #ffffff;
-    font-size: 0.9rem;
-    justify-content: center;
-  
-
+.button a {
+  padding: 10px;
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 0.9rem;
+  justify-content: center;
 }
 
-.bottom-text{
-    display: flex;
-    margin-top: 0.5rem;
-    align-items: center;
-    
+.bottom-text {
+  display: flex;
+  margin-top: 0.5rem;
+  align-items: center;
 }
 
-.bottom-text h2{
-    font-size: 0.8rem;
-    color: gray;
+.bottom-text h2 {
+  font-size: 0.8rem;
+  color: gray;
 }
 
-
-.bottom-text a{
-    font-size: 0.8rem;
-    margin-left: 0.2rem;
-    color: gray;
+.bottom-text a {
+  font-size: 0.8rem;
+  margin-left: 0.2rem;
+  color: gray;
 }

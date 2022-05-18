@@ -236,8 +236,9 @@ input[type="password"]:focus {
   align-content: center;
   background-color: #3a5cd1;
   border: 1px solid #9ec6f4;
-  
+  cursor: pointer;
 }
+
 .button a{
   padding: 10px;
   text-decoration: none;
@@ -246,7 +247,7 @@ input[type="password"]:focus {
   justify-content: center;
   font-weight: 600;
   font-family: "Montserrat";
-
+  
 }
 
 .img-left{
