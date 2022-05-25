@@ -527,7 +527,6 @@ a {
 .departamento-list{
  
   margin-left: 4rem;
-  
   height: 70vh;
   box-shadow: 0.05rem 0.1rem 0.3rem -0.03rem rgba(0, 0, 0, 0.45);
   border-radius: 0.5rem;
@@ -550,6 +549,7 @@ a {
   color: gray;
   font-size: 1.7vw;
   font-weight: 600;
+  cursor: pointer;
 }
 .departamento-list ul li a:hover{
   text-decoration: underline;
