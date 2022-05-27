@@ -11,12 +11,14 @@
       integrity="sha512-hoalWLoI8r4UszCkZ5kL8vayOGVae1oxXe/2A4AO6J9+580uKHDO3JdHb7NzwwzK5xr/Fs0W40kiNHxM9vyTtQ=="
       crossorigin=""
     />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+    />
 
     <title>Nicaragua Trip</title>
   </head>
   <body>
-    
-    
     <section class="card-container">
       <div class="navbar">
         <form action="/login.html">
@@ -110,63 +112,117 @@
       </div>
       <div class="map-holder">
         <div id="map"></div>
-       
-    
+
         <div class="departamento-list">
           <ul>
-            <li><a class="a-button" data-coordinate="11.6635659,-86.3090376">Carazo</a></li>
-            <li><a class="a-button" data-coordinate="12.47224,-85.6586">Boaco</a></li>
-            <li><a class="a-button" data-coordinate="12.62937,-87.13105">Chinandega</a></li>
-            <li><a class="a-button" data-coordinate="12.083333,-85.3999984">Chontales</a></li>
-            <li><a class="a-button" data-coordinate="13.09185,-86.35384">Esteli</a></li>
-            <li><a class="a-button" data-coordinate="11.92988,-85.95602">Granada</a></li>
-            <li><a class="a-button" data-coordinate="13.10042,-86.00226">Jinotega</a></li>
-            <li><a class="a-button" data-coordinate="12.58333,-86.58333">Leon</a></li>
-            <li><a class="a-button" data-coordinate="13.4833314,-86.583331">Madriz</a></li>
-            <li><a class="a-button" data-coordinate="12.1075982,-86.2707668">Managua</a></li>
-            <li><a class="a-button" data-coordinate="11.97444,-86.09417">Masaya</a></li>
-            <li><a class="a-button" data-coordinate="12.92559,-85.91747">Matagalpa</a></li>
-            <li><a class="a-button" data-coordinate="13.75416365,-86.184332596">Nueva Segovia</a></li>
-            <li><a class="a-button" data-coordinate="11.33333,-84.58333">Rio San Juan</a></li>
+            <li>
+              <a class="a-button" data-coordinate="11.6635659,-86.3090376"
+                >Carazo</a
+              >
+            </li>
+            <li>
+              <a class="a-button" data-coordinate="12.47224,-85.6586">Boaco</a>
+            </li>
+            <li>
+              <a class="a-button" data-coordinate="12.62937,-87.13105"
+                >Chinandega</a
+              >
+            </li>
+            <li>
+              <a class="a-button" data-coordinate="12.083333,-85.3999984"
+                >Chontales</a
+              >
+            </li>
+            <li>
+              <a class="a-button" data-coordinate="13.09185,-86.35384"
+                >Esteli</a
+              >
+            </li>
+            <li>
+              <a class="a-button" data-coordinate="11.92988,-85.95602"
+                >Granada</a
+              >
+            </li>
+            <li>
+              <a class="a-button" data-coordinate="13.10042,-86.00226"
+                >Jinotega</a
+              >
+            </li>
+            <li>
+              <a class="a-button" data-coordinate="12.58333,-86.58333">Leon</a>
+            </li>
+            <li>
+              <a class="a-button" data-coordinate="13.4833314,-86.583331"
+                >Madriz</a
+              >
+            </li>
+            <li>
+              <a class="a-button" data-coordinate="12.1075982,-86.2707668"
+                >Managua</a
+              >
+            </li>
+            <li>
+              <a class="a-button" data-coordinate="11.97444,-86.09417"
+                >Masaya</a
+              >
+            </li>
+            <li>
+              <a class="a-button" data-coordinate="12.92559,-85.91747"
+                >Matagalpa</a
+              >
+            </li>
+            <li>
+              <a class="a-button" data-coordinate="13.75416365,-86.184332596"
+                >Nueva Segovia</a
+              >
+            </li>
+            <li>
+              <a class="a-button" data-coordinate="11.33333,-84.58333"
+                >Rio San Juan</a
+              >
+            </li>
             <li><a class="a-button" data-coordinate="11.3,-85.75">Rivas</a></li>
-            <li><a class="a-button" data-coordinate="12.01366,-83.76353">RAAN</a></li>
-            <li><a class="a-button" data-coordinate="13.23333,-85.38333">RAAS</a></li>
+            <li>
+              <a class="a-button" data-coordinate="12.01366,-83.76353">RAAN</a>
+            </li>
+            <li>
+              <a class="a-button" data-coordinate="13.23333,-85.38333">RAAS</a>
+            </li>
           </ul>
-          
         </div>
       </div>
       <div class="texto-departamentos-nic">
-        <h2 class="important-text">
-          Disfruta de nuestros departamentos
-        </h2>
+        <h2 class="important-text">Disfruta de nuestros departamentos</h2>
       </div>
-      <div class="departamento-cards">
-        <div class="card-depa">
-          <div class="card-image rivas">
-            <img src="/resources/San-Juan-del-Sur-.jpg" alt="" />
+      <div class="swiper">
+        <div class="departamento-cards swiper-wrapper">
+          <div class="card-depa swiper-slide rivas">
+            <div class="depta-text">
+              <a href="">Rivas</a>
+            </div>
           </div>
-          <div class="depta-text">
-            <a href="">Rivas</a>
+          <div class="card-depa swiper-slide granada">
+            <div class="depta-text">
+              <a href="/infoPage.html">Granada</a>
+            </div>
           </div>
-        </div>
-        <div class="card-depa">
-          <div class="card-image granada">
-            <img src="/resources/granada.jpg" alt="" />
-          </div>
-          <div class="depta-text">
-            <a href="/infoPage.html">Granada</a>
-          </div>
-        </div>
 
-        <div class="card-depa">
-          <div class="card-image masaya">
-            <img src="/resources/masaya.jpg" alt="" />
-          </div>
-          <div class="depta-text">
-            <a href="">Masaya</a>
+          <div class="card-depa swiper-slide masaya">
+            <div class="depta-text">
+              <a href="">Masaya</a>
+            </div>
           </div>
         </div>
+        <div class="swiper-pagination"></div>
+
+        <!-- If we need navigation buttons -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+
+        <!-- If we need scrollbar -->
+        <div class="swiper-scrollbar"></div>
       </div>
+
       <div class="button-abajo">
         <form action="/searchPage.html">
           <button class="empty-Button">Ver mas paquetes</button>
@@ -214,11 +270,13 @@
       </section>
     </main>
   </body>
-</script>
-<script
-src="https://unpkg.com/leaflet@1.8.0/dist/leaflet.js"
-integrity="sha512-BB3hKbKWOc9Ez/TAwyWxNXeoV9c1v6FIeYiBieIWkpLjauysF18NzgR1MBNBXf8/KABdlkX68nAhlwcDFLGPCQ=="
-crossorigin=""
-></script>
-<script src="/js/leaflet.js"></script>
+
+  <script
+    src="https://unpkg.com/leaflet@1.8.0/dist/leaflet.js"
+    integrity="sha512-BB3hKbKWOc9Ez/TAwyWxNXeoV9c1v6FIeYiBieIWkpLjauysF18NzgR1MBNBXf8/KABdlkX68nAhlwcDFLGPCQ=="
+    crossorigin=""
+  ></script>
+  <script src="/js/leaflet.js"></script>
+  <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+  <script src="/js/card.js"></script>
 </html>

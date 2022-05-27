@@ -198,14 +198,14 @@ body {
   color: white;
 }
 
-.departamento-cards {
+/* .departamento-cards {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
   padding-top: 50px;
   margin: 0 auto;
   width: 90vw;
   justify-items: center;
-}
+} */
 
 .depta-text {
   margin-top: 20px;
@@ -216,16 +216,53 @@ body {
   text-decoration: none;
 }
 
+.swiper{
+  height: 60vh;
+  width: 90%;
+  border-radius: 2rem;
+}  
+
+.swiper-button-next { color: white !important; }
+.swiper-button-prev { color: white !important; }
+.swiper-pagination-bullet-active {
+  background-color: #fff !important;
+}
 a {
   text-decoration: none;
   color: black;
 }
 
-.card-image img {
-  width: 25vw;
-  height: 60vh;
-  border-radius: 30px;
-  object-fit: cover;
+.card-depa{
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  position: relative;
+}
+
+.depta-text{
+  width: 13vw;
+  height: 5vh;
+  background-color: black;
+  position: absolute;
+  
+}
+
+.depta-text a{
+  padding: 1rem;
+  color: white;
+}
+
+.rivas{
+ background-image: url(/resources/San-Juan-del-Sur-.jpg);
+}
+
+.granada{
+background-image: url(/resources/granada.jpg);
+}
+
+.masaya{
+  background-image: url(/resources/masaya.jpg);
+  background-position: 40% 30%;
 }
 
 .texto-departamentos-nic {

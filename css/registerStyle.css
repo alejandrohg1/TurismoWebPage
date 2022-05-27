@@ -95,15 +95,17 @@ body {
   border-radius: 2rem;
   display: flex;
   color: black;
+  
 }
 
 .text-box {
   background-color: white;
   width: 50vw;
-  height: 20vh;
+  height: 95%;
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
 }
 
 .img-left {
@@ -146,16 +148,16 @@ body {
 }
 
 .top-text h2 {
-  font-size: 2.3rem;
+  font-size: 2.3vw;
   font-weight: 500;
   font-family: "Montserrat",sans-serif;
   
 }
 
 .separator{
-  margin-top: 3rem;
+  margin-top: 2rem;
   display: flex;
-  width: 40vw;
+  width: 45vw;
   height: 20vh;
   justify-content: center;
   align-items: center;
@@ -163,7 +165,7 @@ body {
 }
 
 .separator h2{
-  font-size: 1rem;
+  font-size: 1vw;
   color: #96a0b5;
 }
 .line{
@@ -174,7 +176,7 @@ body {
 }
 
 .text-container{
-  margin-top: 3rem;
+  margin-top: 1rem;
   
   width: 35vw;
 }
@@ -186,14 +188,14 @@ body {
 
 .form-text h2{
   font-family: "Montserrat";
-  font-size: 1rem;
+  font-size: 1.5vw;
   margin-bottom: 0.4rem;
 }
 
 input[type=text]{
   border: none;
   padding: 0px 5px;
-  font-size: 14px;
+  font-size: 1.2vw;
   padding-bottom: 5px;
   color: black;
   height: 7vh;
@@ -212,7 +214,7 @@ input[type="text"]:focus {
 input[type="password"]{
   border: none;
   padding: 0px 5px;
-  font-size: 14px;
+  font-size: 1.2vw;
   padding-bottom: 5px;
   color: black;
   height: 7vh;
@@ -230,21 +232,21 @@ input[type="password"]:focus {
 
 .button{
   width: 75%;
-  height: 7vh;
+  height: 6vh;
   display: flex;
   margin-top: 2rem;
   justify-content: center;
-  align-content: center;
+  align-items: center;
   background-color: #3a5cd1;
   border: 1px solid #9ec6f4;
   cursor: pointer;
 }
 
 .button a{
-  padding: 10px;
+  padding: 1rem;
   text-decoration: none;
   color: #ffffff;
-  font-size: 0.9rem;
+  font-size: 1.2vw;
   justify-content: center;
   font-weight: 600;
   font-family: "Montserrat";

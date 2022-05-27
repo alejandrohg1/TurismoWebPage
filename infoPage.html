@@ -6,6 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Granada</title>
     <link rel="stylesheet" href="./css/infoPageStyles.css" />
+    <!-- Link Swiper's CSS -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
   </head>
   <body>
     <section class="hero-image">
@@ -110,215 +115,240 @@
         </div>
       </div>
     </section>
-
-    <section id="Atracciones" class="top-atracciones">
+    <div class="section-txt">
       <h2>Top Atracciones</h2>
-      <div class="card-holder">
-        <div class="card">
-          <div class="img-card garza"></div>
-          <div class="card-info">
-            <div class="txt-card">
-              <a href=""><h3>Pico de garza</h3></a>
-            </div>
-            <div class="circles">
-              <div class="circle"></div>
-              <div class="circle"></div>
-              <div class="circle"></div>
-              <div class="circle"></div>
-              <div class="circle"></div>
-            </div>
-            <div class="sub-text"></div>
-          </div>
-        </div>
-        <div class="card">
-          <div class="img-card mombacho"></div>
-          <div class="card-info">
-            <div class="txt-card">
-              <a href="/buyPage.html"><h3>Volcan Mombacho</h3></a>
-            </div>
-            <div class="circles">
-              <div class="circle"></div>
-              <div class="circle"></div>
-              <div class="circle"></div>
-              <div class="circle"></div>
-              <div class="circle"></div>
-            </div>
-            <div class="sub-text"></div>
-          </div>
-        </div>
-        <div class="card">
-          <div class="img-card ometepe"></div>
-          <div class="card-info">
-            <div class="txt-card">
-              <a href=""><h3>Isla de Ometepe</h3></a>
-            </div>
-            <div class="circles">
-              <div class="circle"></div>
-              <div class="circle"></div>
-              <div class="circle"></div>
-              <div class="circle"></div>
-              <div class="circle"></div>
-            </div>
-            <div class="sub-text"></div>
-          </div>
-        </div>
-        <div class="card">
-          <div class="img-card catedral"></div>
-          <div class="card-info">
-            <div class="txt-card">
-              <a href=""><h3>Catedral de Granada</h3></a>
-            </div>
-            <div class="circles">
-              <div class="circle"></div>
-              <div class="circle"></div>
-              <div class="circle"></div>
-              <div class="circle"></div>
-              <div class="circle"></div>
-            </div>
-            <div class="sub-text"></div>
-          </div>
-        </div>
-      </div>
-    </section>
+    </div>
 
-    <section id="lugares" class="top-atracciones">
-      <h2>Mejores lugares para alojarse</h2>
-      <div class="card-holder">
-        <div class="card">
-          <div class="img-card isleta"></div>
-          <div class="card-info">
-            <div class="txt-card">
-              <a href=""><h3>Isleta El Espino Ecoladge</h3></a>
+    <div id="Atracciones" class="main-container swiper top-atracciones">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <div class="card">
+            <div class="img-card mombacho"></div>
+            <div class="card-info">
+              <div class="txt-card">
+                <a href="/buyPage.html"><h3>Volcan Mombacho</h3></a>
+              </div>
+              <div class="circles">
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+              </div>
             </div>
-            <div class="circles">
-              <div class="circle"></div>
-              <div class="circle"></div>
-              <div class="circle"></div>
-              <div class="circle"></div>
-              <div class="circle"></div>
-            </div>
-            <div class="sub-text"></div>
           </div>
         </div>
-        <div class="card">
-          <div class="img-card patio"></div>
-          <div class="card-info">
-            <div class="txt-card">
-              <a href=""><h3>Los Patios Hotel</h3></a>
+        <div class="swiper-slide">
+          <div class="card">
+            <div class="img-card ometepe"></div>
+            <div class="card-info">
+              <div class="txt-card">
+                <a href="/buyPage.html"><h3>Isla de Ometepe</h3></a>
+              </div>
+              <div class="circles">
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+              </div>
             </div>
-            <div class="circles">
-              <div class="circle"></div>
-              <div class="circle"></div>
-              <div class="circle"></div>
-              <div class="circle"></div>
-              <div class="circle"></div>
-            </div>
-            <div class="sub-text"></div>
           </div>
         </div>
-        <div class="card">
-          <div class="img-card hotel"></div>
-          <div class="card-info">
-            <div class="txt-card">
-              <a href=""><h3>Triba Hotel</h3></a>
+        <div class="swiper-slide">
+          <div class="card">
+            <div class="img-card catedral"></div>
+            <div class="card-info">
+              <div class="txt-card">
+                <a href="/buyPage.html"><h3>Catedral de Granada</h3></a>
+              </div>
+              <div class="circles">
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+              </div>
             </div>
-            <div class="circles">
-              <div class="circle"></div>
-              <div class="circle"></div>
-              <div class="circle"></div>
-              <div class="circle"></div>
-              <div class="circle"></div>
-            </div>
-            <div class="sub-text"></div>
           </div>
         </div>
-        <div class="card">
-          <div class="img-card jicaro"></div>
-          <div class="card-info">
-            <div class="txt-card">
-              <a href=""><h3>Jicaro Lodge</h3></a>
+        <div class="swiper-slide">
+          <div class="card">
+            <div class="img-card garza"></div>
+            <div class="card-info">
+              <div class="txt-card">
+                <a href="/buyPage.html"><h3>Pico Garza</h3></a>
+              </div>
+              <div class="circles">
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+              </div>
             </div>
-            <div class="circles">
-              <div class="circle"></div>
-              <div class="circle"></div>
-              <div class="circle"></div>
-              <div class="circle"></div>
-              <div class="circle"></div>
-            </div>
-            <div class="sub-text"></div>
           </div>
         </div>
       </div>
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-pagination"></div>
+    </div>
+    <div class="section-txt">
+      <h2>Mejores Lugares para alojarse</h2>
+    </div>
+    <section id="lugares" class="top-atracciones swiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <div class="card">
+            <div class="img-card isleta"></div>
+            <div class="card-info">
+              <div class="txt-card">
+                <a href="/buyPage.html"><h3>Isleta El Espino</h3></a>
+              </div>
+              <div class="circles">
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="card">
+            <div class="img-card patio"></div>
+            <div class="card-info">
+              <div class="txt-card">
+                <a href="/buyPage.html"><h3>Los Patio Hotel</h3></a>
+              </div>
+              <div class="circles">
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="card">
+            <div class="img-card hotel"></div>
+            <div class="card-info">
+              <div class="txt-card">
+                <a href="/buyPage.html"><h3>Triba Hotel</h3></a>
+              </div>
+              <div class="circles">
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="card">
+            <div class="img-card jicaro"></div>
+            <div class="card-info">
+              <div class="txt-card">
+                <a href="/buyPage.html"><h3>Jicaro Lodge</h3></a>
+              </div>
+              <div class="circles">
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-pagination"></div>
     </section>
-
-    <section id="comer" class="top-atracciones">
-      <h2>Mejores lugares para comer</h2>
-      <div class="card-holder">
-        <div class="card">
-          <div class="img-card bitro"></div>
-          <div class="card-info">
-            <div class="txt-card">
-              <a href=""><h3>Bitro Estrada</h3></a>
+    <div class="section-txt">
+      <h2>Mejores Lugares para comer </h2>
+    </div>
+    <section id="comer" class="top-atracciones swiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <div class="card">
+            <div class="img-card bitro"></div>
+            <div class="card-info">
+              <div class="txt-card">
+                <a href="/buyPage.html"><h3>Bitro Estrada</h3></a>
+              </div>
+              <div class="circles">
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+              </div>
             </div>
-            <div class="circles">
-              <div class="circle"></div>
-              <div class="circle"></div>
-              <div class="circle"></div>
-              <div class="circle"></div>
-              <div class="circle"></div>
-            </div>
-            <div class="sub-text"></div>
           </div>
         </div>
-        <div class="card">
-          <div class="img-card tranvia"></div>
-          <div class="card-info">
-            <div class="txt-card">
-              <a href=""><h3>El Tranvia</h3></a>
+        <div class="swiper-slide">
+          <div class="card">
+            <div class="img-card tranvia"></div>
+            <div class="card-info">
+              <div class="txt-card">
+                <a href="/buyPage.html"><h3>El Tranvia</h3></a>
+              </div>
+              <div class="circles">
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+              </div>
             </div>
-            <div class="circles">
-              <div class="circle"></div>
-              <div class="circle"></div>
-              <div class="circle"></div>
-              <div class="circle"></div>
-              <div class="circle"></div>
-            </div>
-            <div class="sub-text"></div>
           </div>
         </div>
-        <div class="card">
-          <div class="img-card cafe"></div>
-          <div class="card-info">
-            <div class="txt-card">
-              <a href=""><h3>Cafe las flores</h3></a>
+        <div class="swiper-slide">
+          <div class="card">
+            <div class="img-card cafe"></div>
+            <div class="card-info">
+              <div class="txt-card">
+                <a href="/buyPage.html"><h3>Cafe las flores</h3></a>
+              </div>
+              <div class="circles">
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+              </div>
             </div>
-            <div class="circles">
-              <div class="circle"></div>
-              <div class="circle"></div>
-              <div class="circle"></div>
-              <div class="circle"></div>
-              <div class="circle"></div>
-            </div>
-            <div class="sub-text"></div>
           </div>
         </div>
-        <div class="card">
-          <div class="img-card picholine"></div>
-          <div class="card-info">
-            <div class="txt-card">
-              <a href=""><h3>Picholine</h3></a>
+        <div class="swiper-slide">
+          <div class="card">
+            <div class="img-card picholine"></div>
+            <div class="card-info">
+              <div class="txt-card">
+                <a href="/buyPage.html"><h3>Picholine</h3></a>
+              </div>
+              <div class="circles">
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+              </div>
             </div>
-            <div class="circles">
-              <div class="circle"></div>
-              <div class="circle"></div>
-              <div class="circle"></div>
-              <div class="circle"></div>
-              <div class="circle"></div>
-            </div>
-            <div class="sub-text"></div>
           </div>
         </div>
       </div>
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-pagination"></div>
     </section>
 
     <section class="footer">
@@ -347,5 +377,6 @@
       </div>
     </section>
   </body>
-  <script src="/js/card.js"></script>
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script src="/js/swiper.js"></script>
 </html>
