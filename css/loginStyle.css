@@ -40,11 +40,12 @@ body {
   margin-bottom: 0.5rem;
   color: #959596;
   font-weight: 600;
+  font-size: 2vw;
 }
 
 .top-text h2 {
   color: #cccdcf;
-  font-size: 1rem;
+  font-size: 1vw;
 }
 
 .logo img {
@@ -67,13 +68,13 @@ body {
   width: 30vw;
   height: 20vh;
 
-  margin-top: 2rem;
+  margin-top: 3rem;
 }
 
 input[type="text"] {
   border: none;
   padding: 0px 5px;
-  font-size: 14px;
+  font-size: 1.4vw;
   padding-bottom: 5px;
   color: black;
   height: 7vh;
@@ -90,7 +91,7 @@ input[type="text"]:focus {
 input[type="password"] {
   border: none;
   padding: 0px 5px;
-  font-size: 14px;
+  font-size: 1.4vw;
   padding-bottom: 5px;
   color: black;
   height: 7vh;
@@ -118,13 +119,13 @@ input[type="password"]:focus {
 
 .checkbox h2 {
   margin-left: 0.3rem;
-  font-size: 0.8rem;
+  font-size: 1vw;
   color: gray;
 }
 
 .remember a {
   color: gray;
-  font-size: 0.8rem;
+  font-size: 1vw;
 }
 .button {
   width: 75%;
@@ -138,7 +139,7 @@ input[type="password"]:focus {
   cursor: pointer;
 }
 .button a {
-  padding: 10px;
+  padding: 1vw;
   text-decoration: none;
   color: #ffffff;
   font-size: 0.9rem;
@@ -147,17 +148,17 @@ input[type="password"]:focus {
 
 .bottom-text {
   display: flex;
-  margin-top: 0.5rem;
+  margin-top: 2rem;
   align-items: center;
 }
 
 .bottom-text h2 {
-  font-size: 0.8rem;
+  font-size: 0.8vw;
   color: gray;
 }
 
 .bottom-text a {
-  font-size: 0.8rem;
+  font-size: 0.8vw;
   margin-left: 0.2rem;
   color: gray;
 }
